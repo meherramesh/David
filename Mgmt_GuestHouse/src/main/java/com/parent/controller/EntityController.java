@@ -11,6 +11,8 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/entities")
+
+
 public class EntityController {
 
 	@Autowired
@@ -40,4 +42,5 @@ public class EntityController {
 	public void deleteEntity(@PathVariable Long id) {
 		entityService.deleteEntity(id);
 	}
+	//This is controller layer
 }
